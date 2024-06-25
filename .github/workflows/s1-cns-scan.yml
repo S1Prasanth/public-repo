@@ -33,4 +33,4 @@ jobs:
           DEST: ${{ github.event.pull_request.base.sha }}
           SRC: ${{ github.event.pull_request.head.ref }}
           REPO_FULL_NAME: ${{ github.repository }}
-          REPO_URL: ${{ github.server_url }
+          REPO_URL: ${{ github.server_url }}
